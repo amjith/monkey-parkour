@@ -22,18 +22,18 @@ Prereqs:
 - Node.js 22+
 - npm 10+
 
-Install and run:
+Install and build:
 ```bash
 npm install
-npm run dev
-```
-
-Open the local URL shown by Vite (usually `http://localhost:5173`).
-
-## Build
-```bash
 npm run build
 npm run preview
+```
+
+Open the local URL shown by Vite (usually `http://localhost:4173`).
+
+Dev loop:
+```bash
+npm run dev
 ```
 
 ## Controls
@@ -58,4 +58,3 @@ npm run preview
   2. Preload them in `BootScene`.
   3. Replace texture keys in scene/entity code.
   4. Update `src/assets/ATTRIBUTION.md` with exact licenses and links.
-
